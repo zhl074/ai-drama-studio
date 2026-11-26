@@ -1,0 +1,15 @@
+# AI 短剧生成 Agent 平台 依赖
+# 安装： pip install -r requirements.txt
+
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+python-multipart>=0.0.9
+
+openai>=1.30
+
+# 画面占位图生成
+pillow>=10.0
+
+# 内置 ffmpeg 可执行文件（免安装系统 ffmpeg）
+imageio-ffmpeg>=0.5
